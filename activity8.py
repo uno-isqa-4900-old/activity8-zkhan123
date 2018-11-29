@@ -52,7 +52,7 @@ def findCustomer(cust_id, cust_list):
 
         if row[0]== cust_id:
             print (row[1]+ ' '+row[2])
-
+            print (row[3])
             print (row[4])
             print (row[5]+ ' ' + row[6]+' '+row[7])
 
